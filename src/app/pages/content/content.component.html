@@ -1,0 +1,16 @@
+<div class="container__content">
+    <div class="content__cover">
+      <img src="{{ contentPhotoCover }}" alt="">
+    </div>
+    <div class="content__title">
+      <h1>{{ contentTitle }}</h1>
+      <hr/>
+    </div>
+    <div class="content__description">
+      <p>{{contentDescription}}<a href="{{ contentLink }}" target="_blank">... More &#10095;&#10095; </a></p>
+      <!-- <a href=""><< Voltar</a> -->
+      <hr>
+      <a [routerLink]="['']">&#10094;&#10094; Previous
+      </a>     
+    </div>
+  </div>

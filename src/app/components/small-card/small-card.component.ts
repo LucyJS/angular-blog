@@ -7,11 +7,15 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SmallCardComponent implements OnInit {
   @Input()
-  photoCover:String = ""
+  photoCover:string = ""
   @Input()
-  cardDescription:String = ""
+  cardDescription:string = ""
   @Input()
-  cardlink:String = ""
+  cardlink:string = ""
+  @Input()
+  id:string = "0"
+
+  
 
   constructor() { }
 

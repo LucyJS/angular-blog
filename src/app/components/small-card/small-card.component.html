@@ -1,8 +1,8 @@
 <div class="container__small-card">
     <div class="container__small-card_content">
       <div class="small-card__photo">
-        <a href="{{cardlink}}" target="_blank">
-          <img src="{{photoCover}}"
+        <a [routerLink]="['content', id]">
+          <img src = "{{photoCover}}"
           alt="placeholder view"
           width="250px"
           height="150px"
@@ -11,7 +11,9 @@
         </a>
       </div>
       <div class="small-card__description">
-        <a href="{{cardlink}}" target="_blank">
+        <a [routerLink]="['content', id]" >
+        <!-- href="{{cardlink}}"  -->
+        
           <p>{{cardDescription}}</p>
         </a>
       </div>

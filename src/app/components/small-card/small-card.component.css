@@ -24,5 +24,8 @@
   }
   
   .small-card__description p{
-    color: grey;
+    color: darkorchid;
+  }
+  .container__small-card_separator hr{
+    border-color: darkorchid;
   }
