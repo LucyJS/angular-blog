@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent implements OnInit {
-<<<<<<< HEAD
   @Input()
   photoCover:string = ""
   @Input()
@@ -17,12 +16,9 @@ export class BigCardComponent implements OnInit {
   cardlink:string = ""
   @Input()
   id:string = "0"
-=======
->>>>>>> parent of 510d8f4 (feat: menu bar and card components)
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
