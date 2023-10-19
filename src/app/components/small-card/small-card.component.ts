@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -6,6 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./small-card.component.css']
 })
 export class SmallCardComponent implements OnInit {
+<<<<<<< HEAD
   @Input()
   photoCover:string = ""
   @Input()
@@ -16,6 +17,8 @@ export class SmallCardComponent implements OnInit {
   id:string = "0"
 
   
+=======
+>>>>>>> parent of 510d8f4 (feat: menu bar and card components)
 
   constructor() { }
 

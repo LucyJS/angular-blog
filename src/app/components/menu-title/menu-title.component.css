@@ -2,7 +2,7 @@
     color:mediumorchid;
   }
   
-  .container__menu-title > h1{
+  .container__menu-title h1{
   margin-top:  15px;
   margin-bottom: 15px;
   font-size: 110px;
@@ -12,14 +12,14 @@
   justify-content: center;
   }
   
-  .container__menu-title > p{
+  .container__menu-title p{
     margin-right: 50px;
     font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: right;
     }
-  .container__menu-title > hr{
+  .container__menu-title hr{
     margin-top:  20px;
     margin-bottom: 5px;
     border-color: mediumorchid;
