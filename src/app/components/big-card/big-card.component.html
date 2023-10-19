@@ -7,18 +7,20 @@
         >
       </a>
     </div>
-    <div class="big-card__title">
-      <h1>
-        <a [routerLink]="['content', id]">
-          {{cardTitle}}
+    <div class="big-card__content">
+      <div class="big-card__title">
+        <h1>
+          <a [routerLink]="['content', id]">
+            {{cardTitle}}
+          </a>
+        </h1>
+      </div>
+      <div class="big-card__description">
+        <p>
+          <a [routerLink]="['content', id]">
+          {{cardDescription}}
         </a>
-      </h1>
-    </div>
-    <div class="big-card__description">
-      <p>
-        <a [routerLink]="['content', id]">
-        {{cardDescription}}
-      </a>
-      </p>
+        </p>
+      </div>
     </div>
   </div>

@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px){
+.container__big-card{
+    width: 95%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px darkorchid solid;
+    margin-bottom: 20px;
+    
+    }
+  
+  .big-card__photo img{
+    width: 70%;
+    min-width: 300px;
+    min-height: 200px;
+  }
+
+  .big-card__content{
+    height: 270px;
+    margin: 20px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+  }
+  .big-card__description{
+    margin-top: 20px;
+  }
+}
+  
