@@ -3,5 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:aliceblue;       
+    background-color:aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+a{
+    text-decoration: none;
+  }

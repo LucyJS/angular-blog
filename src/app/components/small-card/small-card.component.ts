@@ -19,5 +19,4 @@ export class SmallCardComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
